@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bunking-calculator-styles.css">
+  <title>Bunking Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Bunking Calculator</h1>
+    <label for="totalHours">Enter Total Hours for the Period:</label>
+    <input type="number" id="totalHours" placeholder="Enter total hours" />
+    <label for="absentHours">Enter Current Absentee Hours:</label>
+    <input type="number" id="absentHours" placeholder="Enter current absentee hours" />
+    <label for="attendanceLimit">Set Your Attendance Percentage Limit:</label>
+    <input type="number" id="attendanceLimit" placeholder="Enter your attendance limit (e.g., 80)" />
+    <button onclick="calculateBunking()">Calculate Maximum Bunkable Hours</button>
+    <p id="result"></p>
+    <p id="currentAttendance"></p>
+
+    <!-- Info Button -->
+    <button id="infoButton" onclick="redirectToInfoPage()">Info</button>
+  </div>
+
+  <script src="bunking-calculator-script.js"></script>
+</body>
+</html>

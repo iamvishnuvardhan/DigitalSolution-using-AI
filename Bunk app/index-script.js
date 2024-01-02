@@ -1,3 +1,3 @@
 function redirectToBunkingPage() {
-  window.location.href = "bunking.html";
+  window.location.href = "bunking-calculator.html";
 }

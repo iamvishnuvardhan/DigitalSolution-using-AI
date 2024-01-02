@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, #3498db, #8e44ad);
-  color: #000; /* Set text color to black */
+  color: #000;
 }
 
 .container {
@@ -17,25 +17,20 @@ body {
 
 h1 {
   text-align: center;
-  color: #000; /* Set text color to black */
+  color: #000;
 }
 
-table {
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
   width: 100%;
-  margin-top: 20px;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-  color: #000; /* Set text color to black */
-}
-
-th {
-  background-color: #3498db;
-  color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
 
 button {
@@ -52,4 +47,14 @@ button {
 
 button:hover {
   background-color: #2980b9;
+}
+
+p#result {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#infoButton {
+  background-color: #2ecc71; /* Green color for the Info button */
 }

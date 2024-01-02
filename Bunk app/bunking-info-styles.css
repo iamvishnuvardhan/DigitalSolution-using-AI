@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, #3498db, #8e44ad);
-  color: #000; /* Set text color to black */
+  color: #fff;
 }
 
 .container {
@@ -17,25 +17,12 @@ body {
 
 h1 {
   text-align: center;
-  color: #000; /* Set text color to black */
+  color: #000;
 }
 
-table {
-  width: 100%;
+.info-content {
   margin-top: 20px;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-  color: #000; /* Set text color to black */
-}
-
-th {
-  background-color: #3498db;
-  color: #fff;
+  color: #000;
 }
 
 button {
